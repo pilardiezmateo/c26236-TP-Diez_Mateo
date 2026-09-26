@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css" />
+  <title>Creaciones Valau - Tienda Virtual</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="../index.html"><img src="../img/logo.png" alt="Creaciones VaLau" class="header-logo"></a>
+
+    <nav class="header-nav">
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contacto</h1>
+
+
+    <section>
+      <section id="contacto">
+        <form class="form" action="https://formspree.io/f/xwpnleyj" method="POST">
+          <div class="campo-form">
+            <label for="email"> Correo Electrónico:</label>
+            <input id="email" type="email" name="email" />
+          </div>
+
+          <div class="campo-form">
+            <label for="mensaje"> Dejanos tu Mensaje:</label>
+            <textarea id="mensaje" name="message"></textarea>
+          </div>
+
+          <!-- Asunto del mail que te llega -->
+          <input type="hidden" name="subject" value="Contacto desde el sitio" />
+
+          <!-- your other form fields go here -->
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>Sitio realizado por Pilar Diez para Creaciones Valau</p>
+    <nav>
+      <ul>
+        <li><a href="https://wa.me/5492215084935"><i class="fa-brands fa-whatsapp"
+              style="color: rgb(255, 255, 255);"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/creaciones.valau?locale=es_LA"><i
+              class="fa-brands fa-facebook footer-facebook-icon"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
