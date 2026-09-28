@@ -21,11 +21,9 @@ body {
 
 main {
   width: 80%;
-  margin: auto;
+  margin: 2rem auto;
   padding-bottom: 2rem;
-
   flex: 1;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,28 +47,22 @@ footer {
   padding: 0.75rem;
   margin-right: 1.5rem;
 }
-
-
 .header-nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
 }
-
 .header-nav li {
   font-size: 3rem;
   font-weight: bold;
 }
-
 .header-nav a {
   color: #FFFFFF;
   text-decoration: none;
   display: inline-block;
   padding: 1rem;
 }
-
-
 
 footer {
   padding: 2rem 4rem;
@@ -88,14 +80,6 @@ footer {
 }
 
 /* -- home -- */
-main {
- width: 90%;
-flex: 1;
-  margin: 2rem auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 main h1 {
   font-size: 3rem;
@@ -125,7 +109,6 @@ main ul{
   list-style: none;
 }
 
-
 .btn {
   border: none;
   font-size: 1.6rem;
@@ -150,8 +133,6 @@ img {
 .productos-home {
   width: 100%;
 }
-
-
 .productos-home h2 {
   font-size: 2.4rem;
   font-weight: 700;
