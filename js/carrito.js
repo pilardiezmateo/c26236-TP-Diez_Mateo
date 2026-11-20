@@ -59,8 +59,7 @@ const renderizarCarrito = () => {
     });
 
     tarjeta.appendChild(img);
-    tarjeta.appendChild(titulo);
-    tarjeta.appendChild(descripcion);
+    tarjeta.appendChild(titulo);   
     tarjeta.appendChild(precio);
     tarjeta.appendChild(btnEliminar);
 
