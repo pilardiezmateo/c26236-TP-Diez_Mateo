@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "nombre": "Grinch",    
+    "descripcion": "Amigurumi de 25 cm de alto, realizado en hilo de algodón",
+    "img": "img/grinch.jpg",
+    "precio": 15000
+  },
+{
+    "id": "2",
+    "nombre": "Harry Potter",   
+    "descripcion":"Amigurumi de 30 cm de alto, creado en hilo de algodón",
+    "img": "img/harry_potter.jpg",
+    "precio": 18000
+  },
+{
+    "id": "3",
+    "nombre": "Furia (Intensamente)",   
+    "descripcion":"Amigurimi realizado en hilo de algodón. Mide 10cm",
+    "img": "img/intensamente_furia.jpg",
+    "precio": 8000
+  },
+{
+    "id": "4",
+    "nombre": "Nutria Nutricionista",   
+    "descripcion":"Amigurumi realizado en hilo de algodón de 30cm de alto",
+    "img": "img/nutria_nutri.jpg",
+    "precio": 28000
+  },
+{
+    "id": "5",
+    "nombre": "Almohadón Dino<",   
+    "descripcion":"Almohadón realizado en hilo de algodón. Mide 50cm de alto",
+    "img": "img/almohadon_dino.jpg",
+    "precio": 25000
+  }
+]
