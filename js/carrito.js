@@ -32,7 +32,7 @@ const renderizarCarrito = () => {
   //Si hay productos en el carrito
   carrito.forEach((producto, index) => {
     const tarjeta = document.createElement("article");
-    tarjeta.classList.add("card");
+    tarjeta.classList.add("tarjeta-producto");
 
     const img = document.createElement("img");
 

@@ -123,6 +123,7 @@ main ul{
   background-color: rgb(133, 112, 115);
 }
 
+
 img {
   width: 30rem;
 }
@@ -232,6 +233,10 @@ img {
   font-weight: bold;
   border-radius: 0.5rem;
   cursor: pointer;
+}
+
+.acciones-carrito {
+  margin-top: 2rem;
 }
 
 
